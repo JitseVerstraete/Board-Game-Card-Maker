@@ -37,9 +37,6 @@ namespace FirstStepsCardMaker
                 {
                     System.Drawing.Color c = System.Drawing.Color.FromArgb((int)((i / (float)image.Width) * 255), (int)((j / (float)image.Height) * 255), 255);
                     image.SetPixel(i, j, c);
-
-
-
                 }
             }
 
